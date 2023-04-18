@@ -167,11 +167,11 @@ ul li input[type=text] {
     display: none
 }
 
-ul li.editMode input[type=text] {
+.list__item.editMode .inp_text {
     display: inline-block;
     width: 224px
 }
 
-ul li.editMode label {
+.list__item.editMode .list__item-label {
     display: none;
 }
