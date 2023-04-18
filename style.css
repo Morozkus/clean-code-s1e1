@@ -21,9 +21,11 @@ body {
 }
 
 @media (max-width:768px) {
+
     .aaa {
         text-align: center;
     }
+    
 }
 
 .centered-main-page-element {
@@ -152,7 +154,8 @@ button.delete img:hover {
 
 /* Completed */
 ul#completed-tasks label {
-    text-decoration: line-through color: #888;
+    text-decoration: line-through; 
+    color: #888;
 }
 
 /* Edit Task */
