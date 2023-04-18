@@ -1,0 +1,13 @@
+.aaa = .header
+.aaa img = .header__img
+.aaa .more_inf = .header__more-inf
+button = .btn
+h3 = .title
+label[for='new-task'] = .add__label
+input[type=text] = .inp_text
+li = .list__item
+input[type=checkBox] = .inp__checkbox
+li>label = .list__item-label
+button.delete img = .btn__img
+ul#completed-tasks label = .completed-tasks__label
+ul li.editMode input[type=text] = li:has('editMode')
